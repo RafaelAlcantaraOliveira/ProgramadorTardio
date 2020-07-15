@@ -3,8 +3,9 @@ body{
 }
 
 .pre-head {
-	background: lightgray;
+	background: white;
 	position: relative;
+	padding: 15px;
 }
 
 header{
