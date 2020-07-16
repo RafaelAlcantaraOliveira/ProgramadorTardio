@@ -5,7 +5,25 @@ body{
 .pre-head {
 	background: white;
 	position: relative;
-	padding: 15px;
+	width: 940px;
+	margin: 2px auto;
+
+}
+
+.pre-head li {
+	display: inline;
+	margin: 0 4px;
+		
+}
+
+.pre-head nav img {
+	border: solid 4px white;
+	border-radius: 10px;
+}
+
+.pre-head nav img:hover {
+	border: solid 4px rgb(71, 141, 168);
+	border-radius: 10px;
 }
 
 header{
@@ -28,18 +46,26 @@ header{
 	height: 100px;
 }
 
-nav {
+.header-box nav {
 	position: absolute;
 	top: 50px;
 	right: 0;
 }
 
-nav li {
+
+.header-box nav li {
 	display: inline;
 	margin: 0 0 0 15px;
 }
 
-nav a {
+.header-box nav a:hover {
+	color: rgb(71, 141, 168);
+	text-decoration: underline rgb(71, 141, 168);
+	
+	
+}
+
+.header-box nav a {
 	text-decoration: none;
 	color:white;
 	font-weight: bold;
