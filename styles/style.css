@@ -1,19 +1,24 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
+	background: url("../images/back.jpg");
 }
 
 .pre-head {
-	background: white;
+	background: lightgray;
 	position: relative;
 	width: 940px;
-	margin: 2px auto;
+	margin: 0 auto;
+	padding: 0 34px;
 
 }
 
 .pre-head li {
 	display: inline;
-	margin: 0 4px;
-		
+	margin: 0 4px;		
+}
+
+.pre-head a{
+	text-decoration: none;
 }
 
 .pre-head nav img {
@@ -27,9 +32,11 @@ body{
 }
 
 header{
-	padding: 20px 0;
+	padding: 20px 34px;
 	color: white;
 	background: black;
+	width: 940px;
+	margin: 0 auto;
 	
 }
 
@@ -37,6 +44,7 @@ header{
 	font-size: 50px;
 	position: absolute;
 	top: 15px;
+	font-weight: bold;
 }
 
 .header-box {
@@ -50,6 +58,7 @@ header{
 	position: absolute;
 	top: 50px;
 	right: 0;
+	
 }
 
 
@@ -68,16 +77,27 @@ header{
 .header-box nav a {
 	text-decoration: none;
 	color:white;
-	font-weight: bold;
 	font-size: 22px;
+	font-weight: bold;
 
 }
 
-.principal{
-	text-align: center;
-	padding: 20px;
+main {
+	text-align: justify;
+	padding: 34px;
 	background: lightgrey;
 	width: 940px;
-	margin: auto;
+	margin: 0 auto;
+	font-size: 26px;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	padding: 180px 0;
+	color: white;
+	width: 940px;
+	margin: 0 auto;
+	padding: 34px;
 }
 
