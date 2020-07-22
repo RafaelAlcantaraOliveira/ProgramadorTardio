@@ -108,16 +108,22 @@ form {
 	margin-top: 30px;
 }
 
-form label {
+form label, form p {
 	display: block;
 	font-size: 20px;
-	margin-bottom: 10px;
+	
 }
 
-form input {
+form input, form textarea {
 	display: block;
 	padding: 10px 25px;
 	width: 50%;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+form select {
+	width: 35%;
+	display: block;
+	margin-bottom: 10px;
 }
 
