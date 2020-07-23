@@ -45,30 +45,31 @@
             <h2>Entre em contato comigo!</h2>
             <form>
                 <label for="name">Nome</label>
-				<input id="name" type="text">
+				<input id="name" type="text" class="standart-input" required>
 				
 				<label for="email">E-mail</label>
-				<input id="email" type="email">
+				<input id="email" type="email" class="standart-input" required placeholder="seuemail@dominio.com">
 
 				<label for="phoneNumber">Telefone</label>
-				<input id="phoneNumber" type="text">
+				<input id="phoneNumber" type="tel" class="standart-input" placeholder="(XX)XXXXX-XXXX">
 
-				<div>
-					<p>Assunto</p>
+				<fieldset>
+					<legend>Assunto</legend>
 					<select>
 						<option>Preciso de um desenvolvedor júnior</option>
 						<option>Tenho uma dúvida</option>
 						<option>Tenho uma sugestão</option>
+						<option>Outros</option>
 
 					</select>
-				</div>
+				</fieldset>
 				
-				<p>Mensagem</p>
-				<textarea cols="50" rows="10"></textarea>
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="50" rows="10" id="mensagem"class="standart-input" required></textarea>
 
 				
 
-				<input type="submit" value="Enviar">
+				<input type="submit" value="Enviar" class="submit">
             </form>
 			
 			

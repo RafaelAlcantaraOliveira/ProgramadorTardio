@@ -108,13 +108,13 @@ form {
 	margin-top: 30px;
 }
 
-form label, form p {
+form label, form legend {
 	display: block;
 	font-size: 20px;
 	
 }
 
-form input, form textarea {
+.standart-input {
 	display: block;
 	padding: 10px 25px;
 	width: 50%;
@@ -125,5 +125,22 @@ form select {
 	width: 35%;
 	display: block;
 	margin-bottom: 10px;
+}
+
+.submit{
+	width: 40%;
+	padding: 10px 0;
+	background:black ;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	color: white;
+	border: solid 4px white;
+
+}
+
+.submit:hover {
+	border: solid 4px rgb(71, 141, 168) ;
 }
 
