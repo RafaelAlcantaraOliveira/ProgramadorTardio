@@ -1,5 +1,5 @@
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background: url("../images/back.jpg");
 }
 
@@ -41,10 +41,12 @@ header{
 }
 
 .main-title {
-	font-size: 50px;
+	font-size: 35px;
 	position: absolute;
-	top: 15px;
+	top: 12px;
 	font-weight: bold;
+	font-family: 'Press Start 2P', cursive;
+	line-height: 1.5em;
 }
 
 .header-box {
@@ -89,7 +91,11 @@ main {
 	width: 940px;
 	margin: 0 auto;
 	font-size: 26px;
-	line-height: 1.5;
+
+}
+
+main p {
+	margin: 0 0 1em;
 }
 
 footer {
@@ -144,3 +150,39 @@ form select {
 	border: solid 4px rgb(71, 141, 168) ;
 }
 
+/* blog css */
+
+#blog-title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+article {
+	font-size: 18px;
+}
+
+article h2{
+	font-weight: bold;
+	margin: 0 0 1em;
+	font-size: 1.5em;
+}
+
+/* table css */
+table {
+	margin: 40px 0;
+}
+
+td, th {
+	border: solid 2px black;
+	padding: 0 10px;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+}
+.td-right {
+	text-align: left;
+}
